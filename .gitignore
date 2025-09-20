@@ -200,3 +200,5 @@ converted_files/
 # Backup files
 *.bak
 *.backup
+
+./node_modules
