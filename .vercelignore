@@ -1,0 +1,33 @@
+# Development files
+launch.py
+demo.py
+*.pyc
+__pycache__/
+.pytest_cache/
+.coverage
+.env
+.venv/
+venv/
+
+# Documentation
+README.md
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+.gitignore
+
+# Sample data (keep categories but exclude sample data to reduce size)
+sample_data/
+
+# Logs
+*.log
