@@ -1,11 +1,5 @@
 {
   "version": 2,
-  "builds": [
-    {
-      "src": "streamlit_app.py",
-      "use": "@vercel/python"
-    }
-  ],
   "routes": [
     {
       "src": "/(.*)",
@@ -20,5 +14,11 @@
     "STREAMLIT_BROWSER_GATHER_USAGE_STATS": "false",
     "STREAMLIT_SERVER_ENABLE_CORS": "false",
     "STREAMLIT_SERVER_ENABLE_XSRF_PROTECTION": "false"
+  },
+  "functions": {
+    "streamlit_app.py": {
+      "runtime": "python3.9",
+      "maxDuration": 30
+    }
   }
 }
